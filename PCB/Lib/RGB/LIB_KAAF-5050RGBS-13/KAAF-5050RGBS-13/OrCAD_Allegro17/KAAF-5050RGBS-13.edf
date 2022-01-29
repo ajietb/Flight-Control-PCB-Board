@@ -1,0 +1,137 @@
+
+(EDIF
+  (rename &KAAF_5050RGBS_13 "KAAF_5050RGBS_13")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2019 03 06 03 34 31)
+      (dataOrigin "289207/75226/2.36/6/4/LED")
+      (program "SamacSys ECAD Model KAAF_5050RGBS_13"
+        (version "1.1"))))
+  (library
+  (rename &KAAF_5050RGBS_13 "KAAF_5050RGBS_13")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &KAAF_5050RGBS_13 "KAAF_5050RGBS_13")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "LED")
+          (property (rename PACKAGENAME "PackageName") (string "KAAF_5050RGBS_13"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "KAAF-5050RGBS-13"))
+          (property (rename &RS_Part_Number "RS Part Number") (string "1654417"))
+          (property (rename &RS_Price_Stock "RS Price/Stock") (string "http://uk.rs-online.com/web/p/products/1654417"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Kingbright"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "KAAF-5050RGBS-13"))
+          (property (rename &Description "Description") (string "RGB LED 5x5mm Kingbright KAAF-5050RGBS-13, KAAF Series 3 RGB LED, 470 / 525 / 625 nm 6-Pin, Round Lens SMD package"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "http://uk.rs-online.com/web/p/products/1654417"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "KAAF_5050RGBS_13"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &RED_CATHODE "RED_CATHODE")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &GREEN_CATHODE "GREEN_CATHODE")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &BLUE_CATHODE "BLUE_CATHODE")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &BLUE_ANODE "BLUE_ANODE")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &GREEN_ANODE "GREEN_ANODE")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &RED_ANODE "RED_ANODE")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &RED_CATHODE (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &GREEN_CATHODE (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &BLUE_CATHODE (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &BLUE_ANODE (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1500 -100) (pt 1700 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1700 -100))))
+            )
+            (portImplementation
+              (name &GREEN_ANODE (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1500 -200) (pt 1700 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1700 -200))))
+            )
+            (portImplementation
+              (name &RED_ANODE (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1500 -300) (pt 1700 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 1700 -300))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1500 0)
+                  (pt 1500 -400)
+                  (pt 0 -400)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1550 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1550 30))))
+          )
+        )
+      )
+    )
+  )
+)

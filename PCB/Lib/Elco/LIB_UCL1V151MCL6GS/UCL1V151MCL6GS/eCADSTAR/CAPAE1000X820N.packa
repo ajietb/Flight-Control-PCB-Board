@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "UCL1V151MCL6GS"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-12-13-16:10:37)
+    (mountForm default
+        (footprintRef "CAPAE1000X820N")
+        (spec "System")
+    )
+)

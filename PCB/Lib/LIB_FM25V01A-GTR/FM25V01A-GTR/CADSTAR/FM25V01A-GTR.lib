@@ -1,0 +1,16 @@
+.FM25V01A-GTR :1 ;CYPRESS SEMICONDUCTOR - FM25V01A-GTR - F-RAM, NON-VOL, 128KBIT, 40MHZ, SOIC-8
+SOIC127P602X173-8N
+*STM IC
+*NGS
+*PLB 1="'CS'" 2="SO" 3="'WP'" 4="VSS" 5="SI" 6="SCK" 7="'HOLD'" 8="VDD"
+*MXP 8
+*DFN FM25V01A-GTR
+~!Mouser Part Number (727-FM25V01A-GTR)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=727-FM25V01A-GTR)
+~!Manufacturer_Name (Cypress Semiconductor)
+~!Manufacturer_Part_Number (FM25V01A-GTR)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/FM25V01A-GTR.pdf)
+~!Height (1.727mm)
+~!3D_Model (FM25V01A-GTR)
+FM25V01A-GTR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

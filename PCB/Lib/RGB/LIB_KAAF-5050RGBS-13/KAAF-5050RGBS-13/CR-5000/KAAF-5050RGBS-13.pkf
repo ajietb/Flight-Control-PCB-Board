@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "KAAF-5050RGBS-13"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "KAAF-5050RGBS-13")
+        (spec "default")
+    )
+)

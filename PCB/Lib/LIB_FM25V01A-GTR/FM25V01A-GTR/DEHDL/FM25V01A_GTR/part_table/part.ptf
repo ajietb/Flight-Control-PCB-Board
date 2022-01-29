@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FM25V01A_GTR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Cypress Semiconductor", "FM25V01A-GTR" (!) = "", "SOIC127P602X173-8N", "Small Outline Packages", "727-FM25V01A-GTR", "https://www.mouser.com/Search/Refine.aspx?Keyword=727-FM25V01A-GTR", "CYPRESS SEMICONDUCTOR - FM25V01A-GTR - F-RAM, NON-VOL, 128KBIT, 40MHZ, SOIC-8", "https://componentsearchengine.com/Datasheets/1/FM25V01A-GTR.pdf", "1.727 mm"
+END_PART
+
+END.

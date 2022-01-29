@@ -1,0 +1,15 @@
+.KAAF-5050RGBS-13 :1 ;RGB LED 5x5mm Kingbright KAAF-5050RGBS-13, KAAF Series 3 RGB LED, 470 / 525 / 625 nm 6-Pin, Round Lens SMD package
+KAAF-5050RGBS-13
+*STM LED
+*NGS
+*PLB 1="RED CATHODE" 2="GREEN CATHODE" 3="BLUE CATHODE" 4="BLUE ANODE" 5="GREEN ANODE" 6="RED ANODE"
+*MXP 6
+*DFN KAAF-5050RGBS-13
+~!RS Part Number (1654417)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1654417)
+~!Manufacturer_Name (Kingbright)
+~!Manufacturer_Part_Number (KAAF-5050RGBS-13)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/1654417)
+~!Height (-)
+KAAF-5050RGBS-13
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 
